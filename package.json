@@ -1,0 +1,52 @@
+{
+  "name": "generator-express-react-redux",
+  "version": "1.0.0",
+  "description": "Full ES6+ isomorphic web app using React, Redux and Express with Webpack & Babel.",
+  "main": "generators/index.js",
+  "homepage": "https://github.com/monsais/generator-express-react-redux",
+  "author": {
+    "name": "Simone Spaccarotella",
+    "email": "spa.simone@gmail.com",
+    "url": "https://github.com/monsais"
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "precommit": "lint-staged",
+    "test": "jest"
+  },
+  "dependencies": {
+    "yeoman-generator": "^2.0.1",
+    "chalk": "^2.1.0",
+    "yosay": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.5.0",
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.7.0"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "repository": "monsais/generator-express-react-redux",
+  "license": "Apache-2.0",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "react",
+    "redux",
+    "express",
+    "webpack",
+    "babel",
+    "mocha",
+    "yeoman-generator"
+  ],
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

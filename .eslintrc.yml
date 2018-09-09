@@ -1,0 +1,11 @@
+extends: airbnb
+env:
+  jest: true
+  mocha: true
+  node: true
+rules:
+  comma-dangle:
+    - error
+    - never
+  consistent-return: off
+  no-plusplus: off
