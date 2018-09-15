@@ -7,7 +7,7 @@
   "author": {
     "name": "Simone Spaccarotella",
     "email": "spa.simone@gmail.com",
-    "url": "https://github.com/monsais"
+    "url": "https://github.com/simonespa"
   },
   "scripts": {
     "pretest": "eslint .",
@@ -32,7 +32,7 @@
   "engines": {
     "npm": ">= 4.0.0"
   },
-  "repository": "monsais/generator-express-react-redux",
+  "repository": "simonespa/generator-express-react-redux",
   "license": "Apache-2.0",
   "files": [
     "generators"
